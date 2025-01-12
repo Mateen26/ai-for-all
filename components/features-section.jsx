@@ -16,24 +16,24 @@ export function FeaturesSection() {
       </div>
       <div className="grid md:grid-cols-3 gap-8 text-center pt-[110px]">
         <div className="space-y-4">
-          <div className="mx-auto h-[124px] w-[124px]">
-            <Image src={MarketeqVoice} alt="Marketeq Voice" width={124} height={124} />
+          <div className="mx-auto h-[80px] w-[80px]">
+            <Image src={MarketeqVoice} alt="Marketeq Voice" width={80} height={80} />
           </div>
-          <h3 className="text-[50px] font-medium w-[320px] mx-auto leading-[60px]">AI Voice Caller</h3>
+          <h3 className="text-[32px] font-medium w-[320px] mx-auto leading-[32px]">AI Voice Caller</h3>
         </div>
         <div className="space-y-4">
-          <div className="mx-auto h-[124px] w-[124px]">
+          <div className="mx-auto h-[80px] w-[80px]">
           <Image src={SolarColourTuneing} alt="Solar Colour Tuneing" width={124} height={124} />
 
           </div>
-          <h3 className="text-[50px] font-medium w-[320px] mx-auto leading-[60px]">Behavioural Tuning</h3>
+          <h3 className="text-[32px] font-medium w-[320px] mx-auto leading-[32px]">Behavioural Tuning</h3>
         </div>
         <div className="space-y-4">
-          <div className="mx-auto h-[124px] w-[124px]">
+          <div className="mx-auto h-[80px] w-[80px]">
           <Image src={SolarUserSpeak} alt="Solar User Speak" width={124} height={124} />
 
           </div>
-          <h3 className="text-[50px] font-medium w-[320px] mx-auto leading-[60px]">Dynamic Call Flow</h3>
+          <h3 className="text-[32px] font-medium w-[320px] mx-auto leading-[32px]">Dynamic Call Flow</h3>
         </div>
       </div>
     </section>)

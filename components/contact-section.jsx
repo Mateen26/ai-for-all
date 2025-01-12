@@ -10,8 +10,8 @@ export function ContactSection() {
         <CardContent className="p-8">
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             <div className="space-y-2">
-              <h2 className="text-[46px] font-medium pt-[30px]">Want to learn more?</h2>
-              <p className="text-[#303030] pt-[16px] pb-[40px] text-[25px] !font-[400]">Connect with us and let&apos;s talk</p>
+              <h2 className="text-[38px] font-medium pt-[30px]">Want to learn more?</h2>
+              <p className="text-[#303030] pt-[16px] pb-[40px] text-[22px] !font-[400]">Connect with us and let&apos;s talk</p>
             </div>
             <div className="flex flex-col gap-2">
               <p className="text-[#303030] text-[25px] !font-[400]">Enter your email</p>
