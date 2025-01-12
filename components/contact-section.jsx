@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
-
+import arrowRight from "@/public/images/arrow-right.svg"
+import Image from "next/image"
 export function ContactSection() {
   return (
     (<section className="container py-16">
@@ -13,11 +14,11 @@ export function ContactSection() {
               <p className="text-[#303030] pt-[16px] pb-[50px] text-[25px] !font-[400]">Connect with us and let&apos;s talk</p>
             </div>
             <div className="flex flex-col gap-2">
-              <p className="text-muted-foreground">Enter your email</p>
-              <div className="flex gap-2">
-                <Input type="email" placeholder="your@email.com" className="flex-1" />
-                <Button className="bg-[#26B573] hover:bg-[#26B573]/90">
-                  Connect <span className="ml-1">→</span>
+              <p className="text-[#303030] text-[25px] !font-[400]">Enter your email</p>
+              <div className="flex gap-2 flex-wrap">
+                <Input type="email" placeholder="your@email.com" className="flex-1 !py-6 bg-white" />
+                <Button className="bg-[#1FA84F] hover:bg-[#1FA84F]/90 py-6">
+                  Connect <Image src={arrowRight} alt="Arrow Right" width={16} height={16} />
                 </Button>
               </div>
             </div>

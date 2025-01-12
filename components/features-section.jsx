@@ -14,7 +14,7 @@ export function FeaturesSection() {
           agent answer or place calls with your voice, your content and connected to your systems.
         </p>
       </div>
-      <div className="grid md:grid-cols-3 gap-8 text-center">
+      <div className="grid md:grid-cols-3 gap-8 text-center pt-[110px]">
         <div className="space-y-4">
           <div className="mx-auto h-[64px] w-[64px]">
             <Image src={MarketeqVoice} alt="Marketeq Voice" width={64} height={64} />

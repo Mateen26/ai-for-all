@@ -6,7 +6,7 @@ import Link from "next/link"
 import AppStore from "@/public/images/App-Store.svg"
 import GooglePlay from "@/public/images/Google-Play.svg"
 import bgGraphics from "@/public/images/bg-graphics.svg"
-
+import playButton from "@/public/images/play-button.svg"
 export function HeroSection() {
   return (<>
     <section className="container relative grid lg:grid-cols-2 gap-8 py-12 md:py-16 items-center">
@@ -54,13 +54,9 @@ export function HeroSection() {
           </Link>
         </div>
       </div>
-      <div className="text-center space-y-6">
+      <div className="text-center space-y-6 flex justify-center items-center flex-col">
         <p className="text-[#26B573] text-3xl font-medium">+1 825 462 1436</p>
-        <Button
-          size="icon"
-          className="h-16 w-16 rounded-full bg-[#26B573] hover:bg-[#26B573]/90">
-          <Play className="h-8 w-8 text-white" />
-        </Button>
+      <Image src={playButton} alt="Hero Section Image" width={70} height={70} />
       </div>
     </section>
  </> );
