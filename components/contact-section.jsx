@@ -5,7 +5,7 @@ import arrowRight from "@/public/images/arrow-right.svg"
 import Image from "next/image"
 export function ContactSection() {
   return (
-    <section className="container py-6 px-4 md:px-6">
+    <section className="container py-6 px-4 md:px-14">
       <Card className="bg-[#F6F6F6] w-full max-w-[1150px] mx-auto rounded-[10px]">
         <CardContent className="p-4 md:p-8">
           <div className="grid lg:grid-cols-2 gap-6 md:gap-8 items-center">
