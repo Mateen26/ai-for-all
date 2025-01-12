@@ -6,7 +6,7 @@ import { HeroSection } from "@/components/hero-section";
 export default function Home() {
   return (
     <>
-      <main className="flex flex-col justify-center items-center py-20 px-20">
+      <main className="flex flex-col justify-center items-center py-20 px-4 md:px-6">
         <HeroSection />
         <FeaturesSection />
         <ContactSection />

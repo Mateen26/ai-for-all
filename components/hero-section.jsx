@@ -11,7 +11,7 @@ export function HeroSection() {
   return (<>
     <section className="container relative grid lg:grid-cols-2 gap-8 py-12 md:py-16 items-center">
       {/* Background graphics */}
-      <div className="absolute -top-[74px] -right-[174px] -z-10">
+      <div className="hidden md:block absolute -top-[74px] -right-[174px] -z-10">
         <Image
           src={bgGraphics}
           alt="Background pattern"
@@ -31,7 +31,7 @@ export function HeroSection() {
           </span>{" "}
           do all for <br /> you!
         </h1>
-        <p className="text-lg text-muted-foreground w-[450px]">
+        <p className="text-lg text-black w-full md:w-[450px]">
           Agent4 lets you create custom voice experiences for callers to your business or mobile phone. Have an intelligent
           agent answer or place calls with your voice, your content and connected to your systems.
         </p>

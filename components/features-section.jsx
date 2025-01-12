@@ -6,10 +6,10 @@ import Image from "next/image"
 
 export function FeaturesSection() {
   return (
-    (<section className="container py-16 space-y-12">
+    (<section className="container py-6 px-4 md:px-6 space-y-12">
       <div className="text-center max-w-2xl mx-auto space-y-4">
         <h2 className="text-[32px] font-medium">Correspond to Your Callers</h2>
-        <p className="text-black w-[450px] text-center mx-auto leading-[32px]">
+        <p className="text-black w-full md:w-[450px] text-center mx-auto leading-[32px]">
           Agent4 lets you create custom voice experiences for callers to your business or mobile phone. Have an intelligent
           agent answer or place calls with your voice, your content and connected to your systems.
         </p>
