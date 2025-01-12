@@ -15,8 +15,8 @@ export function HeroSection() {
         <Image
           src={bgGraphics}
           alt="Background pattern"
-          width={1000}
-          height={1000}
+          width={1200}
+          height={1200}
         />
       </div>
 
