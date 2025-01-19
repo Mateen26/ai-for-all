@@ -1,12 +1,10 @@
-import { Play } from 'lucide-react'
+import {  Phone } from 'lucide-react'
 import aiCircle from "@/public/images/ai-circle.svg"
-import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
 import AppStore from "@/public/images/App-Store.svg"
 import GooglePlay from "@/public/images/Google-Play.svg"
 import bgGraphics from "@/public/images/bg-graphics.svg"
-import playButton from "@/public/images/play-button.svg"
 export function HeroSection() {
   return (<>
     <section className="container relative grid lg:grid-cols-2 gap-8 py-12 md:py-16 items-center">
@@ -55,8 +53,26 @@ export function HeroSection() {
         </div>
       </div>
       <div className="text-center space-y-6 flex justify-center items-center flex-col">
-        <p className="text-[#26B573] text-3xl font-medium">+1 825 462 1436</p>
-      <Image src={playButton} alt="Hero Section Image" width={70} height={70} />
+        <div className="space-y-4">
+          <p className="text-xl md:text-2xl font-medium text-[#26B573]">
+            Want to see in action!
+          </p>
+          <div className="flex items-center justify-center gap-4">
+            <p className="text-xl md:text-2xl font-medium flex items-center gap-2">
+              <span className="bg-[#26B573] p-2 rounded-full">
+                <Phone className="w-5 h-5 text-white" />
+              </span>
+              <span className="text-[#26B573]">Dial</span>
+            </p>
+            <a 
+              href="tel:+18254621436"
+              className="text-[#26B573] text-2xl md:text-3xl font-medium hover:opacity-80 transition-opacity"
+            >
+              +1 825 462 1436
+            </a>
+          </div>
+        </div>
+      
       </div>
     </section>
  </> );
